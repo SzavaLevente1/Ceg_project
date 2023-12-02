@@ -104,8 +104,14 @@ body{
 .teamr{
     float: right;
     width: 50%;
-    padding: 5px;   
-}  
+    padding: 5px;
+}    
+.front_p{
+    float: right;
+    height: 500px;
+    width: 50%;
+}    
+
 h1{
     text-align: center;
 }
