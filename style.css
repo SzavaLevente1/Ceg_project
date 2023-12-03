@@ -29,6 +29,19 @@ body{
     margin-top: 100px;
     border: 1px solid white;
     height: 500px;
+    text-align: center;
+    line-height: 420px;
+    color: white;
+    font-size: 25pt;
+}    
+.textcardf{
+    margin-top: 100px;
+
+    height: 500px;
+    text-align: center;
+    line-height: 420px;
+    color: white;
+    font-size: 35pt;
 
 }
 .textcard1{
@@ -73,8 +86,10 @@ body{
 .textcard8{
     margin-top: 100px;
     margin-bottom: 100px;
-    border: 1px double white;
-    height: 500px;
+    border-bottom: 1px solid white;
+    height: 300px;
+    font-size: 15pt;
+    
     
 }   
 
@@ -96,6 +111,16 @@ body{
     margin-top: 100px;
     height: 500px;
 }    
+.kezdokep1{
+
+}    
+.kezdokep2{
+position: relative left;
+}    
+.kezdokep3{
+
+}    
+  
 .teaml{
     float: left;
     width: 50%;
@@ -218,3 +243,20 @@ ul{
 .media:hover{
     color: white;
 }
+.foszoveg{
+    animation: gradientText 5s ease-in-out infinite;
+      }
+      @keyframes gradientText  {
+        0% {
+         color: rgba(0, 0, 0, 1);
+        }
+        25% {
+          color: rgb(0, 195, 255)
+        }
+        25% {
+          color: rgba(0, 0, 0, 1);
+        }
+        25% {
+          color: rgb(0, 195, 255)
+        }
+      }
